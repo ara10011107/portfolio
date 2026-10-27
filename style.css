@@ -532,6 +532,22 @@ body {
   overflow-wrap: anywhere;
 }
 
+/* 맨 아래 작은 관리자 링크 */
+.admin-link {
+  margin: 24px 0 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.admin-link a {
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+.admin-link a:hover {
+  text-decoration: underline;
+}
+
 /* ===== 화면 폭에 따라 ===== */
 @media (max-width: 1100px) {
   .cards {
